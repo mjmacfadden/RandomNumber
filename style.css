@@ -1,0 +1,65 @@
+/*
+=================================================
+GLOBAL
+=================================================
+*/
+*{
+    box-sizing: border-box;
+}
+html,body{
+    text-align: center;
+    height:100%;
+    background-color: black;
+    color:#FFF;
+    margin:0;
+    font-family:sans-serif;
+}
+body{
+    background: rgb(20,20,20);
+    background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(108,108,108,1) 100%);
+}
+.wrapper{
+    width:100%;
+    max-width:400px;
+    margin:0 auto;
+}
+.button{
+    width:100%;
+    cursor: pointer;
+}
+/*
+=================================================
+TYPOGRAPHY
+=================================================
+*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Russo One', sans-serif;
+}
+h1{
+    padding:50px 0 0 0;
+    margin:0;
+    font-size:48px;
+}
+h2{
+    font-size:200px;
+    line-height: 0;
+    margin:130px;
+}
+p{
+    color:#999999;
+    font-size:24px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1{
+        padding-top:20px
+    }
+    h2{
+        font-size: 125px;
+    }
+    .button{
+        width:80%;
+    }
+ }
+ 
